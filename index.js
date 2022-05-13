@@ -130,13 +130,20 @@ app.use(express.json({
   verify: undefined
 }));
 console.log(chalk.yellow("=================================================="))
-console.log(chalk.blue("[ClientPanel] ©️ IC DEVELOPMENT:  \n Links:   \n [Github] https://github.com/Team-IC/ClientPanel \n [Discord] https://discord.gg/ic"));
+console.log(chalk.blue("[ClientPanel] ©️ Malgos DEVELOPMENT:  \n Links:   \n [Discord] https://dsc.gg/malgosdev \n [Hosting] https://dsc.gg/malgos"));
 console.log(chalk.yellow("=================================================="))
-console.log(chalk.gray("[Contributors] \n [Just a Kartik#6927 \n ||**AshishOp.java**||#0666]"));
+console.log(chalk.gray("[Contributors] \n [Vedang Dev#8643]"));
 console.log(chalk.yellow("=================================================="))
 
 const listener = app.listen(settings.website.port, function() {
   console.log(chalk.green("[ClientPanel] Loaded Website on the port " + listener.address().port +" "));
+	console.log(chlk.yellow(`
+░█████╗░██╗░░░░░██╗███████╗███╗░░██╗████████╗  ██████╗░░█████╗░███╗░░██╗███████╗██╗░░░░░
+██╔══██╗██║░░░░░██║██╔════╝████╗░██║╚══██╔══╝  ██╔══██╗██╔══██╗████╗░██║██╔════╝██║░░░░░
+██║░░╚═╝██║░░░░░██║█████╗░░██╔██╗██║░░░██║░░░  ██████╔╝███████║██╔██╗██║█████╗░░██║░░░░░
+██║░░██╗██║░░░░░██║██╔══╝░░██║╚████║░░░██║░░░  ██╔═══╝░██╔══██║██║╚████║██╔══╝░░██║░░░░░
+╚█████╔╝███████╗██║███████╗██║░╚███║░░░██║░░░  ██║░░░░░██║░░██║██║░╚███║███████╗███████╗
+░╚════╝░╚══════╝╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░  ╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝╚══════╝╚══════╝`))
 });
 
 
