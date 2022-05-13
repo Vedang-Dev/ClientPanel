@@ -137,7 +137,7 @@ console.log(chalk.yellow("=================================================="))
 
 const listener = app.listen(settings.website.port, function() {
   console.log(chalk.green("[ClientPanel] Loaded Website on the port " + listener.address().port +" "));
-	console.log(chlk.yellow(`
+	console.log(chalk.yellow(`
 ░█████╗░██╗░░░░░██╗███████╗███╗░░██╗████████╗  ██████╗░░█████╗░███╗░░██╗███████╗██╗░░░░░
 ██╔══██╗██║░░░░░██║██╔════╝████╗░██║╚══██╔══╝  ██╔══██╗██╔══██╗████╗░██║██╔════╝██║░░░░░
 ██║░░╚═╝██║░░░░░██║█████╗░░██╔██╗██║░░░██║░░░  ██████╔╝███████║██╔██╗██║█████╗░░██║░░░░░
